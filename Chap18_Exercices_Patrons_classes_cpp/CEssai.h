@@ -2,7 +2,7 @@
 
 
 template <class T, int n> class CEssai {
-	T tab[n];
+	T m_tab[n];
 
 public:
 
@@ -16,8 +16,8 @@ CEssai<T, n>::CEssai(T value)
 {
 	int n_i;
 
-	for (n_i = 0; i < n, n_i++)
-		tab[n_i] = value;
+	for (n_i = 0; n_i < n; n_i++)
+		m_tab[n_i] = value;
 
 }
 

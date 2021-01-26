@@ -143,6 +143,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CEssai.h" />
+    <ClInclude Include="CPoint.h" />
+    <ClInclude Include="CPointcol.h" />
+    <ClInclude Include="CVect.h" />
+    <ClInclude Include="TPointcol.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
